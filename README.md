@@ -101,7 +101,7 @@ You can copy the below script and replace the required parameters manually. Note
 
     /*---------------- Kommunicate settings start ----------------*/
 
-     var kommunicateSettings = {
+     const kommunicateSettings = {
       "appId": "<APP_ID>",  
       "automaticChatOpenOnNavigation": true,
       "popupWidget": true
@@ -115,7 +115,7 @@ You can copy the below script and replace the required parameters manually. Note
 
     /*----------------- Kommunicate settings end ------------------*/
 
-     var s = document.createElement("script");
+     const s = document.createElement("script");
       s.type = "text/javascript";
       s.async = true;
       s.src = "https://widget.kommunicate.io/v2/kommunicate.app";
